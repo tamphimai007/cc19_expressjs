@@ -5,8 +5,8 @@ const createError = require("../utils/createError");
 exports.listProducts = (req, res, next) => {
   // Step 1
   try {
-    if(true){
-        return createError(400,'Password is wrong!!')
+    if (true) {
+      return createError(400, "Password is wrong!!");
     }
     res.json({ message: "Hello ListProducts" });
   } catch (error) {
